@@ -3,7 +3,6 @@ public class Solution {
         int n = mat.length;
         int sum = 0;
 
-        // Loop through the matrix
         for (int i = 0; i < n; i++) {
             // Add primary diagonal element
             sum += mat[i][i];
@@ -17,5 +16,4 @@ public class Solution {
         return sum;
     }
 
-   
 }
